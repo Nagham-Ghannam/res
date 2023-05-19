@@ -1,0 +1,598 @@
+/*public*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+ul{
+    list-style-type: none;
+}
+.test{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Alegreya', serif;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+/*header-navbar*/
+.header{
+    background-image: url('../image/shutterstock_277750193.jpg');
+    /*cover ناقصة*/
+    text-align: center;
+    height: 100vh;
+}
+.navbar .logo{
+    float: left;
+    width: 40%;
+}
+.navbar .nav{
+    float: left;
+    width: 60%;
+    padding-top: 20px;
+}
+.navbar .logo img{
+    width: 25%;
+}
+
+.navbar .nav .Li{
+    display: inline-block;
+}
+.navbar{
+    padding-top:30px ;
+}
+.nav .Li a{
+    color:white;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+/*header-content*/
+
+.header-content{
+    padding-top: 155px;/*كانت90*/
+    color:white;
+}
+.header-content img{
+    width:25%;
+}
+.header-content h2{
+    font-size: 75px;
+    font-weight:400 ;
+    margin-bottom:20px ;
+}
+.header-content p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-bottom:30px ;
+}
+.header-content button{
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+}
+.btn{
+    background-color: #c1ab84;
+    color: #fff;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+/*opacity*/
+.overlay{
+    background-color:rgba(0,0,0,.5);
+    width: 100%;
+    height: 100vh;
+    position: absolute;/*هاي لايش*/
+}
+
+/* end header section*/
+
+
+/*start about section*/
+.about{
+    overflow: hidden;
+}
+
+.about-image{
+    float: left;
+    width: 40%;
+}
+.about-contant{
+    float: left;
+    width: 60%;
+    text-align: center;
+   padding-top: 100px;
+   font-size: 18px;/*انا حطيتها*/
+}
+.about-image img{
+    width: 100%;
+}
+.about-contant h2{
+    font-size: 36px;/*كانت 30*/
+    font-weight:400;
+    padding-bottom: 20px;
+    color: #253048;
+}
+.about-contant h3{
+    margin-bottom: 20px;
+    font-family:'Dancing Script', cursive ;
+    color:#c1ab84;
+    font-weight: 400;/*انا حطيتها*/
+    font-size: 28px;/*انا حطيتها*/
+}
+.about-contant p{
+    width: 75%;
+    margin:auto;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.about-contant ul li{
+    width: 75%;
+    margin:auto;
+    text-align: left;
+
+}
+.about-contant ul li i{
+    background-color: #c1ab84;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    box-sizing: border-box;
+    margin-top: 12px;
+    font-size: 20px;
+}
+.about-contant ul li span{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+/*reviewers*/
+.reviewers ,.location{
+    background-color: #f8f8f8;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-bottom: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.reviewers-content ,.location-content{
+    float:left;
+    width: 60%;
+}
+
+.reviewers-image ,.location-image {
+    float: left;
+    width: 40%;
+    padding-top: 60px;
+}
+
+.reviewers img{
+    width: 100%;
+}
+
+.reviewers-content h2 ,.location-content h2{
+    color: #253048;
+    font-weight: 400;
+    font-size: 36px;
+    padding-top: 70px;/*???????*/
+    margin-bottom: 12px;
+}
+
+.reviewers-content h3{
+    color: #c1ab84;
+    font-family:'Dancing Script', cursive ;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.reviewers-content p ,.location-content p{
+    width: 79%;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.reviewers-content i {
+    margin-bottom: 20px;
+    margin-right: 25px;
+    color: #c1ab84;
+}
+
+/*cover*/
+.cover{
+    background-image: url('../image/shutterstock_280369721.jpg');
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-size: cover;
+    background-attachment: fixed;    
+}
+
+
+/*menu*/
+
+.menu{
+    text-align: center;
+    margin-top: 70px;
+}
+.menu h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.menu .sub{
+    color: #c1ab84;
+    font-family:'Dancing Script', cursive ;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 25px
+}
+.menu-content .item{
+    float: left;
+    width: 33.3%;
+}
+.menu-content img{
+    width: 80%;
+}
+.menu-content .item h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.menu-content .item p{
+    margin: auto;
+    width: 70%;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.menu-content a{
+    background-color: #c1ab84;
+    color: #fff;
+    padding: 10px 20px;
+    border:0;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+/*location*/
+.location{
+    margin-top: 50px;
+}
+.location-content i{
+    background-color: #c1ab84;
+    color: white;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    font-size: 15px;
+}
+.location-content ul li span{
+    margin-left: 30px;
+}
+.location-content ul{
+    line-height: 55px;
+}
+.location-content p{
+    font-size: 18px;
+}
+
+
+/*footer*/
+.footer{
+    background-color:#403d38 ;
+    color: #fff;
+    padding-top: 30px;
+}
+.footer .item{
+    float: left;
+    width: 25%;
+}
+.footer-contant{
+    overflow: hidden;
+}
+.footer h2{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer p{
+    width:84%;
+    font-size: 14px;
+    font-weight: 400;
+    color:#969696;
+    margin-bottom: 30px;
+}
+.footer a::before{
+    content: '\f105';
+    font-family: FontAwesome;
+    margin-right: 10px;
+    font-size: 10px;
+}
+.footer a{
+    color: #969696;
+    display: inline-block;
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+.footer a:hover{
+    color: #fff;
+}
+.footer .contant{
+    color: #969696;
+    font-size: 16px;
+}
+.footer .contant li{
+    margin-bottom: 20px;
+}
+.footer .contant li i{
+    margin-right: 10px;
+}
+  
+
+
+.footer .footer-second{
+    background-color: #353330;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.footer .footer-second p{
+    margin: auto;
+    width: 15%;
+    padding-bottom: 30px;
+}
+.footer-second .icons i{
+    background-color: #484540;
+    color: #969696;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.footer-second .icons{
+    padding-bottom: 20px;
+}
+.footer-second .icons i:hover{
+    background-color: #3b5998;
+    color: #fff;
+}
+
+
+
+
+@media (max-width:576px){
+    /*Header*/
+    .navbar .logo{
+        float:none;
+        width: 100%;
+    }
+
+    .navbar .nav{
+        float:none;
+        width: 100%;
+    }
+    .nav .Li a{
+        font-size: 14px;
+    }
+    .header-content{
+        padding-top: 90px;
+    }
+    .header-content h2{
+        font-size: 50px;
+    }
+    .header-content p{
+        font-size: 30px;
+    }
+    .header-content img{
+        width:45%;
+    }
+
+
+    /*about*/
+    .about-image{
+        float: none;
+        margin: auto;
+        width: 100%;
+    }
+    .about-contant{
+        float: none;
+        margin: auto;
+        width: 100%;
+    }
+    .about-contant p{
+        width: 100%;
+    }
+    .about-contant ul li{
+        width: 100%;
+    }
+    .about-contant ul li i ,.location-content i{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+    }
+    .about-contant ul li span{
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+
+    /*reviewers*/
+    .reviewers,.location{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .reviewers-content ,.location-content{
+        float: none;
+        width: 100%;
+        margin: auto;
+    }
+    .reviewers-image ,.location-image{
+        float: none;
+        width: 100%;
+    }
+    .reviewers-content p ,.location-content p{
+        width: 100%;
+    }
+    .reviewers-content i {/*بحس بدها كمان تعديل*/
+        margin-bottom: 15px;
+        margin-right: 2px;
+        font-size: 12px;
+    }
+    .reviewers-content span{
+        font-size: 12px;
+    }
+    
+  
+    /*Menu*/
+    .menu-content .item{
+        float: none;
+        width: 100%;
+    }
+    .menu-content .item p{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .menu-content .item h3{
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+
+
+    /*location*/
+    .location-image iframe{
+      width: 100%;
+      height: 70%; 
+    }
+    .location-content ul li span{
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+
+    /*Footer*/
+    .footer .item{
+        float:left;
+        width: 100%;
+    }
+    .footer h2{
+        margin-bottom: 15px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .footer .footer-second img{
+        margin: auto;
+        width: 80%;
+    }
+
+    .footer .footer-second p{
+        width: 100%;
+    }  
+}
+
+
+
+@media (min-width:576px) and (max-width:992px){
+    /*about*/
+    .about-image img{
+        padding-top: 160px;
+    }
+    .about-contant ul li i{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+    }
+    .about-contant ul li span{
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+
+    /*reviewers*/
+    .reviewers img {
+        padding-top: 150px;
+        padding-left: 40px;
+    }
+    .reviewers-content i {
+        margin-bottom: 10px;
+        margin-right: 5px;
+    }
+    .reviewers-content span{
+        font-size: 12px;
+    }
+
+    /*menu*/
+    .menu-content .item p{
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    /*location*/
+    .location-image iframe{
+        width: 100%;
+        padding-top: 150px;
+        padding-left: 40px;
+        height: 80%;
+    }
+      .location-content ul li span{
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+    /*footer*/
+    .footer p{
+        width:90%;
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .footer a::before{
+        margin-right: 2px;
+    }
+    .footer .contant li i{
+        margin-right: 2px;
+    }
+    .footer .contant li{
+        margin-bottom: 10px;
+    }
+    .footer .contant li span{
+        font-size: 10px;
+    }
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
